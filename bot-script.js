@@ -1,5 +1,5 @@
 const mineflayer = require('mineflayer');
-// const mineflayerViewer = require('prismarine-viewer').mineflayer;
+const mineflayerViewer = require('prismarine-viewer').mineflayer;
 
 module.exports = settings => {
   const bot =  mineflayer.createBot({
@@ -12,6 +12,6 @@ module.exports = settings => {
   });
 
   bot.once('spawn', () => {
-    // mineflayerViewer(bot, { port:  });
+    mineflayerViewer(bot, { port: 3001 });
   });
 };
