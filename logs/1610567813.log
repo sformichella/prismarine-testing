@@ -1,0 +1,4 @@
+[INFO]: Started logging...
+January 13th 2021, 11:56:54 seed: 1582592273
+January 13th 2021, 11:56:57 [[31mERR[39m]: Client undefined:undefined : Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:213:20)

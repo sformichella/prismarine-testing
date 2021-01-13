@@ -1,0 +1,18 @@
+[INFO]: Started logging...
+January 13th 2021, 11:55:07 seed: 17971302
+January 13th 2021, 11:55:12 [[31mERR[39m]: Client ::ffff:127.0.0.1:60629 : TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received undefined
+    at new NodeError (node:internal/errors:278:15)
+    at Function.byteLength (node:buffer:712:11)
+    at Object.shortString (eval at compile (C:\Users\Sam\Desktop\flying-squid\node_modules\protodef\src\compiler.js:245:12), <anonymous>:45:25)
+    at nbt (eval at compile (C:\Users\Sam\Desktop\flying-squid\node_modules\protodef\src\compiler.js:245:12), <anonymous>:110:32)
+    at CompiledProtodef.sizeOf (C:\Users\Sam\Desktop\flying-squid\node_modules\protodef\src\compiler.js:77:14)
+    at Object.sizeOfNbt [as nbt] (C:\Users\Sam\Desktop\flying-squid\node_modules\minecraft-protocol\src\datatypes\minecraft.js:41:20)
+    at Object.packet_login (eval at compile (C:\Users\Sam\Desktop\flying-squid\node_modules\protodef\src\compiler.js:245:12), <anonymous>:1078:24)
+    at eval (eval at compile (C:\Users\Sam\Desktop\flying-squid\node_modules\protodef\src\compiler.js:245:12), <anonymous>:2292:50)
+    at packet (eval at compile (C:\Users\Sam\Desktop\flying-squid\node_modules\protodef\src\compiler.js:245:12), <anonymous>:2346:9)
+    at CompiledProtodef.sizeOf (C:\Users\Sam\Desktop\flying-squid\node_modules\protodef\src\compiler.js:77:14)
+January 13th 2021, 11:55:12 [[32mINFO[39m]: samytheplatypus disconnected
+January 13th 2021, 11:55:12 [[31mERR[39m]: Client ::ffff:127.0.0.1:60629 : Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:213:20)
+January 13th 2021, 11:55:12 [[32mINFO[39m]: samytheplatypus (::ffff:127.0.0.1) connected
+January 13th 2021, 11:55:12 [[32mINFO[39m]: position written, player spawning...
