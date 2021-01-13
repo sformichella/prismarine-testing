@@ -12,7 +12,7 @@ module.exports = settings => {
     auth: 'mojang'      // optional; by default uses mojang, if using a microsoft account, set to 'microsoft'
   });
 
-  // bot.once('spawn', () => {
-  //   mineflayerViewer(bot, { port: 3001 });
-  // });
+  bot.once('spawn', () => {
+    mineflayerViewer(bot, { port: 3001 });
+  });
 };
