@@ -34,9 +34,6 @@
     "flying-squid": "^1.4.0",
     "minecraft-data": "^2.72.0",
     "mineflayer": "^2.40.1",
-    "pg": "^8.5.1",
-    "prismarine-block": "^1.7.3",
-    "prismarine-physics": "^1.2.0",
-    "prismarine-viewer": "^1.13.1"
+    "pg": "^8.5.1"
   }
 }
