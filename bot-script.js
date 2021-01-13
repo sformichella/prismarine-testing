@@ -1,6 +1,5 @@
 const mineflayer = require('mineflayer');
 const mineflayerViewer = require('prismarine-viewer').mineflayer;
-require('dotenv').config();
 
 module.exports = settings => {
   const bot =  mineflayer.createBot({
