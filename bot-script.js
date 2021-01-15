@@ -12,6 +12,6 @@ module.exports = settings => {
   });
 
   bot.once('spawn', () => {
-    mineflayerViewer(bot, { port: 3001 });
+    mineflayerViewer(bot, { firstPerson: true, port: 3001 });
   });
 };
